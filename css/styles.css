@@ -40,6 +40,7 @@ button {
   text-decoration: none;
   font-style: normal;
 }
+
 /**
   |============================
   | BASE STYLES
@@ -207,6 +208,19 @@ body {
   | COMPANY ADVANTAGES (SECTION 2)
   |============================
 */
+.advanteges-icons-item {
+  width: 264px;
+  height: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.advanteges-icon-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .advanteges {
   padding: 120px 0;
 }
@@ -314,6 +328,28 @@ body {
   color: #434455;
   background-color: #ffffff;
   text-align: center;
+  margin-bottom: 8px;
+}
+.cocial-list-link {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cocial-list-link:hover,
+.cocial-list-link:focus {
+  background-color: #404bbf;
+}
+.cocial-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.cocial-list-icon {
+  fill: #ffffff;
 }
 /**
   |============================
