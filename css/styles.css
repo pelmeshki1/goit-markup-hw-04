@@ -6,7 +6,7 @@
   --background: #f4f4fd;
   --premium-color: #434455;
   --color-btn: #e7e9fc;
-  --color-icon-gray: #afb1b8;
+  --color-icon-gray: #8e8f99;
 }
 
 /**
@@ -357,6 +357,10 @@ body {
   | CUSTOMERS (SECTION 5)
   |============================
 */
+.customers {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .section-customers-header {
   font-family: Roboto, sans-serif;
   font-weight: 700;
@@ -365,8 +369,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--navi-blue);
   text-transform: capitalize;
-  padding-top: 120px;
-  padding-bottom: 120px;
   margin-bottom: 72px;
   text-align: center;
 }
