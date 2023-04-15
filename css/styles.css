@@ -6,6 +6,7 @@
   --background: #f4f4fd;
   --premium-color: #434455;
   --color-btn: #e7e9fc;
+  --color-icon-gray: #afb1b8;
 }
 
 /**
@@ -356,9 +357,45 @@ body {
   | CUSTOMERS (SECTION 5)
   |============================
 */
+.section-customers-header {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--navi-blue);
+  text-transform: capitalize;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  margin-bottom: 72px;
+  text-align: center;
+}
 .customers-list {
   display: flex;
   justify-content: center;
+  gap: 24px;
+}
+.customers-list-item {
+  width: calc((100% - 120px) / 6);
+  height: 88px;
+}
+.customers-list-link {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-icon-gray);
+}
+.customers-list-link:hover,
+.customers-list-link:focus {
+  border-color: #404bbf;
+  color: #404bbf;
+}
+.customers-list-icon {
+  fill: currentColor;
 }
 /**
   |============================
