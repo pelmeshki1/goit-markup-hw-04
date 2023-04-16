@@ -288,8 +288,7 @@ body {
   |============================
 */
 .container-team {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding: 32px 0;
 }
 .section-team {
   background-color: #f4f4fd;
