@@ -214,10 +214,13 @@ body {
 .advanteges-icons-item {
   width: 264px;
   height: 112px;
+  background-color: #f4f4fd;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 24px;
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
 .advanteges-icon-list {
   display: flex;
