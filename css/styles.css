@@ -422,6 +422,11 @@ body {
   background-color: #2e2f42;
   padding: 100px 0;
 }
+.container-footer {
+  display: flex;
+  align-items: baseline;
+  gap: 120px;
+}
 /* logo footer */
 .footer-logo {
   font-family: Raleway, sans-serif;
@@ -452,6 +457,39 @@ body {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+}
+.social-media-text {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--light-txt-color);
+  margin-bottom: 16px;
+}
+.social-media-link {
+  display: flex;
+  gap: 16px;
+}
+.social-media-item {
+  width: 40px;
+  height: 40px;
+}
+.social-list-link {
+  width: 100%;
+  height: 100%;
+  background-color: var(--iris);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: #31d0aa;
+}
+.social-list-icon {
+  fill: var(--background);
 }
 /**
   |============================
