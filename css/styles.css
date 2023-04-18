@@ -230,11 +230,6 @@ body {
   border-radius: 4px;
   margin-bottom: 8px;
 }
-.advanteges-icon-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .advanteges {
   padding: 120px 0;
 }
